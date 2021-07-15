@@ -1,0 +1,337 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*-----------------------
+ navigation design
+ ----------------------- */
+ nav a{
+
+    /* link er nicher underscore soranor jonno text decoration none dea hoese */
+    text-decoration: none;
+  
+}
+
+
+/* ----------------------
+mouse hover part
+------------------------ */
+.photo-frame:hover .photo{
+
+ /* zooming 15% using scale 1.5 */
+
+    transform: scale(1.5) ;
+    transition: transform 2s ease-in-out;
+}
+
+
+/*----------------------------
+ banner part design of first section
+ ---------------------------- */
+ .half-width{
+    width: 50%;
+
+ }
+ .top-ban{
+     width: 1440px;
+     height: 650px;
+    background-color: #2D25A0;
+
+}
+.flexible{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.photo-frame{
+    /* border: 2px solid black; */
+    margin-top: 120px;
+    overflow: hidden; 
+    
+}
+   
+ .top-ban img{
+     width: 556px;
+     height: 468;
+    
+ }
+ .icon-button{
+     background-color: #E02C6D;
+     border-radius: 10px;
+     width: 100px;
+     height: 30px;
+     padding-top: 10px;
+     padding-left: 10px;
+    
+    
+ }
+ .icon-padding{
+    width: 50px;
+    height: 30px;
+     /* border: 2px solid black; */
+     padding-left: 400px;
+     padding-top: 20px;
+     
+ }
+ .child-of-top-banner{
+     width: 50%;
+     margin: 207px,102px,240px,156px;
+     /* border: 3px solid black; */
+     padding: 50px;
+ }
+ .box-design{
+     height: 300px;
+     width: 300px;
+     /* border: 4px solid black; */
+     margin-top: 100px;
+     margin-left: 70px;
+ }
+ .header-design{
+     color: white;
+     font-size: 44px;
+     font-weight: 700;
+
+ }
+
+
+
+
+.container{
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+}
+/* ------------------------------------------------------
+This is the design part of second section twelve players
+ information with grid layout
+ -------------------------------------------------------- */
+.section-title{
+    color:  grey;
+  
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+.top-players{
+   
+    margin-bottom: 30px;
+}
+.player{
+    box-shadow: 5px 5px 5px #686161;
+    width: 330px;
+    height: 474;
+    margin: 14px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+/*--------------------------------
+ all legendary  players style here 
+ ------------------------------*/
+.players{
+    display: grid;
+
+    /* 3 column defined */
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+
+/* --------------------------
+resizing image of players 
+-----------------------------*/
+.player img{
+    width: 310px;
+    height: 250px;
+    margin: 10px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 25px;
+}
+
+
+
+/* ---------------------
+3rd section design part
+---------------------- */
+.Football-Club{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 40px;
+   
+}
+.club{
+    box-shadow: 5px 5px 5px #686161;
+    width: 300px;
+    height: 400;
+    margin: 14px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+
+.club-info{
+    display: flex;
+
+    
+    /* the part of ratings line align here */
+    align-items: center;
+    padding-bottom: 20px;
+   
+}
+.club-title{
+  
+    text-align: center;
+    color: grey;
+    font-weight: 900;
+}
+.club .club-banner img{
+    width: 220px;
+    height: 180px;
+    padding-left: 30px;
+}
+
+
+/*----------------------
+Club  ratings part design 
+-----------------------*/
+
+.fa-star{
+  font-size: 12px;
+}
+
+.fa-star.filled{
+    color: #FFC014;
+
+}
+ .fa-star.empty{
+    color: black;
+
+} 
+
+
+
+ /* --------------------
+Top-Tournaments is parents
+ ---------------------*/
+ .Top-Tournaments{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    /*-------------------------------------------
+     at given figma assinment file column gap is 30px 
+     but I use 100px here to look more beautiful 
+     ---------------------------------------------*/
+    grid-row-gap: 100px;
+    grid-column-gap: 100px;
+ }
+
+ .Trophy{
+    box-shadow: 5px 5px 8px #686161;
+    width: 300px;
+    height: 400;
+    margin: 14px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+ 
+ .Trophy-info{
+     text-align: center;
+     font-weight: 900;
+     color: grey;
+ }
+.Trophy .thumbanil img{
+    width: 220px;
+    height: 180px;
+    padding-left: 30px;
+}
+.section-title{
+    font-size: 20px;
+}
+
+/* ----------------------
+    footer design
+------------------- */
+.design-footer{
+    width: 483px;
+    height: 200px;
+    
+    margin-top: 100px;
+   
+}
+footer img{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+   
+}
+.icon-size{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.design-footer-child{
+    margin-bottom: 20px;
+    padding-left: 70px;
+    
+    
+}
+.copyright-design{
+    font-size: 18px;
+    font-weight: 400;
+}
+    
+
+
+/*-----------------------------
+ media quaries
+ ----------------------------- */
+
+
+ /* ----------------------
+      for mobile devices
+ ------------------------- */
+ @media only screen and (max-width:688px) {
+     .container{
+         width: 100%;
+     }
+     .players, .Top-Tournaments, .Football-Club, .top-ban{
+         
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .player, .Trophy{
+         flex-direction: column;
+     }
+     
+ }
+ /*--------------------
+     for tablet devices
+  --------------------*/
+ @media only screen and (min-width: 688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+     .players, .Top-Tournaments, .Football-Club, .top-ban{
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .player, .Trophy{
+        flex-direction: column;
+    }
+     
+ }
+
+
+
